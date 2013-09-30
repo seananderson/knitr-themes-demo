@@ -1,0 +1,991 @@
+\documentclass[12pt]{article}
+\usepackage{url}
+\begin{document}
+
+<<set-knitr-options, echo=FALSE>>=
+library(knitr)
+opts_chunk$set(dev = "pdf")
+opts_knit$set(out.format = "latex")
+themes <- knit_theme$get()
+@
+\title{A demonstration of \texttt{knitr} \LaTeX\ themes}
+\author{Sean C. Anderson\\ \texttt{sean@seananderson.ca}}
+\maketitle
+\noindent
+See \url{https://gist.github.com/seananderson/6503371} for the 
+R script to generate this file.
+
+
+<<echo=FALSE>>=
+knit_theme$set("acid")
+@
+
+<<>>=
+# acid
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("aiseered")
+@
+
+<<>>=
+# aiseered
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("andes")
+@
+
+<<>>=
+# andes
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("anotherdark")
+@
+
+<<>>=
+# anotherdark
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("autumn")
+@
+
+<<>>=
+# autumn
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("baycomb")
+@
+
+<<>>=
+# baycomb
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("bclear")
+@
+
+<<>>=
+# bclear
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("biogoo")
+@
+
+<<>>=
+# biogoo
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("bipolar")
+@
+
+<<>>=
+# bipolar
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("blacknblue")
+@
+
+<<>>=
+# blacknblue
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("bluegreen")
+@
+
+<<>>=
+# bluegreen
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("breeze")
+@
+
+<<>>=
+# breeze
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("bright")
+@
+
+<<>>=
+# bright
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("camo")
+@
+
+<<>>=
+# camo
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("candy")
+@
+
+<<>>=
+# candy
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("clarity")
+@
+
+<<>>=
+# clarity
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("dante")
+@
+
+<<>>=
+# dante
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("darkblue")
+@
+
+<<>>=
+# darkblue
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("darkbone")
+@
+
+<<>>=
+# darkbone
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("darkness")
+@
+
+<<>>=
+# darkness
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("darkslategray")
+@
+
+<<>>=
+# darkslategray
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("darkspectrum")
+@
+
+<<>>=
+# darkspectrum
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("default")
+@
+
+<<>>=
+# default
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("denim")
+@
+
+<<>>=
+# denim
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("dusk")
+@
+
+<<>>=
+# dusk
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("earendel")
+@
+
+<<>>=
+# earendel
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("easter")
+@
+
+<<>>=
+# easter
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-anjuta")
+@
+
+<<>>=
+# edit-anjuta
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-eclipse")
+@
+
+<<>>=
+# edit-eclipse
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-emacs")
+@
+
+<<>>=
+# edit-emacs
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-flashdevelop")
+@
+
+<<>>=
+# edit-flashdevelop
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-gedit")
+@
+
+<<>>=
+# edit-gedit
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-jedit")
+@
+
+<<>>=
+# edit-jedit
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-kwrite")
+@
+
+<<>>=
+# edit-kwrite
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-matlab")
+@
+
+<<>>=
+# edit-matlab
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-msvs2008")
+@
+
+<<>>=
+# edit-msvs2008
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-nedit")
+@
+
+<<>>=
+# edit-nedit
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-vim-dark")
+@
+
+<<>>=
+# edit-vim-dark
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-vim")
+@
+
+<<>>=
+# edit-vim
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("edit-xcode")
+@
+
+<<>>=
+# edit-xcode
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("ekvoli")
+@
+
+<<>>=
+# ekvoli
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("fine_blue")
+@
+
+<<>>=
+# fine_blue
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("freya")
+@
+
+<<>>=
+# freya
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("fruit")
+@
+
+<<>>=
+# fruit
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("golden")
+@
+
+<<>>=
+# golden
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("greenlcd")
+@
+
+<<>>=
+# greenlcd
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("kellys")
+@
+
+<<>>=
+# kellys
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("leo")
+@
+
+<<>>=
+# leo
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("lucretia")
+@
+
+<<>>=
+# lucretia
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("manxome")
+@
+
+<<>>=
+# manxome
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("maroloccio")
+@
+
+<<>>=
+# maroloccio
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("matrix")
+@
+
+<<>>=
+# matrix
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("moe")
+@
+
+<<>>=
+# moe
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("molokai")
+@
+
+<<>>=
+# molokai
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("moria")
+@
+
+<<>>=
+# moria
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("navajo-night")
+@
+
+<<>>=
+# navajo-night
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("navy")
+@
+
+<<>>=
+# navy
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("neon")
+@
+
+<<>>=
+# neon
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("night")
+@
+
+<<>>=
+# night
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("nightshimmer")
+@
+
+<<>>=
+# nightshimmer
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("nuvola")
+@
+
+<<>>=
+# nuvola
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("olive")
+@
+
+<<>>=
+# olive
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("orion")
+@
+
+<<>>=
+# orion
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("pablo")
+@
+
+<<>>=
+# pablo
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("peaksea")
+@
+
+<<>>=
+# peaksea
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("print")
+@
+
+<<>>=
+# print
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("rand01")
+@
+
+<<>>=
+# rand01
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("rdark")
+@
+
+<<>>=
+# rdark
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("relaxedgreen")
+@
+
+<<>>=
+# relaxedgreen
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("rootwater")
+@
+
+<<>>=
+# rootwater
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("seashell")
+@
+
+<<>>=
+# seashell
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("solarized-dark")
+@
+
+<<>>=
+# solarized-dark
+print("this one")
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("solarized-light")
+@
+
+<<>>=
+# solarized-light
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("tabula")
+@
+
+<<>>=
+# tabula
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("tcsoft")
+@
+
+<<>>=
+# tcsoft
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("vampire")
+@
+
+<<>>=
+# vampire
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("whitengrey")
+@
+
+<<>>=
+# whitengrey
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("xoria256")
+@
+
+<<>>=
+# xoria256
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("zellner")
+@
+
+<<>>=
+# zellner
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("zenburn")
+@
+
+<<>>=
+# zenburn
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+
+<<echo=FALSE>>=
+knit_theme$set("zmrok")
+@
+
+<<>>=
+# zmrok
+my_fn <- function(x) {
+  print("Some text")
+  y * 2
+}
+@
+\end{document}
